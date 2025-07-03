@@ -1,0 +1,14 @@
+.header_container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+p{
+    font-weight: 500 ;
+}
+
