@@ -1,10 +1,11 @@
 import './Navigation.css'
+import logo from '../../assets/logo.png'
 
 const Navigation = () => {
   return (
     <nav className="container">
         <div>
-            <img src="images/logo.png" alt="logo" />
+            <img src={logo} alt="logo" />
         </div>
 
         <ul>

@@ -4,6 +4,7 @@ import { MdMessage } from "react-icons/md";
 import { MdCall } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { use, useState } from "react";
+import Contact from '../../assets/contact.svg'
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -56,7 +57,7 @@ const ContactForm = () => {
         </form>
       </div>
       <div className="contact_image">
-        <img src="/images/contact.svg" alt="contact image" />
+        <img src={Contact} alt="contact image" />
       </div>
     </section>
   );
