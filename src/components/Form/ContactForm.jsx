@@ -4,7 +4,7 @@ import { MdMessage } from "react-icons/md";
 import { MdCall } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { use, useState } from "react";
-import Contact from '../../assets/contact.svg'
+import Contact from '../../../public/images/contact.svg'
 
 const ContactForm = () => {
   const [name, setName] = useState("");
